@@ -9603,3 +9603,46 @@ table p {
   padding-left: 10px;
 
 }
+
+.causes-area .card{
+  /* background: #FEA444;
+  background: linear-gradient(to right,  #eba534 0%, #386B9E 100%); */
+
+  /* border: 2px solid #FEA444; */
+}
+.causes-area .card:hover{
+
+}
+.causes-area .fourth-card{
+
+  /* background: #FEA444;
+  background: linear-gradient(to right, #386B9E 0%, #FC6539 100%); */
+  /* border: 2px solid #FEA444; */
+}
+
+.causes-area .first-card{
+  /* background: #FEA444;
+  background: linear-gradient(to right, #386B9E 0%, #FC6539 100%); */
+  /* border: 2px solid #FEA444; */
+}
+
+.card-icon {
+  text-align: center;
+  color: red;
+  font-size: 65px !important;
+  
+}
+
+.card-icon i{
+  border: 2px solid black !important;
+}
+.card-title{
+  font-family: roboto;
+  font-weight: 700;
+}
+.client-info{
+  text-align: start;
+}
+.client-content{
+  text-align: start;
+}
