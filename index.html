@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Givest – Non Profit Bootstrap 5 HTML Template</title>
+    <title>Home | A Business for you</title>
 
     <!--== Favicon ==-->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
 
     <!--== Google Fonts ==-->
     <link href="https://fonts.googleapis.com/css?family=Yeseva+One:400" rel="stylesheet">
@@ -72,24 +72,14 @@
               <ul class="main-menu nav justify-content-center">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li class="has-submenu"><a href="causes.html">Causes</a>
+                <li><a href="about.html">Franchis</a></li>
+                <!-- <li class="has-submenu"><a href="causes.html">Causes</a>
                   <ul class="submenu-nav">
                     <li><a href="causes.html">Causes</a></li>
                     <li><a href="causes-details.html">Causes Details</a></li>
                   </ul>
-                </li>
-                <li class="has-submenu"><a href="blog.html">Blog</a>
-                  <ul class="submenu-nav">
-                    <li><a href="blog.html">Blog Grid</a></li>
-                    <li><a href="blog-details.html">Blog Single</a></li>
-                  </ul>
-                </li>
-                <li class="has-submenu"><a href="index.html">Pages</a>
-                  <ul class="submenu-nav">
-                    <li><a href="event-details.html">Event Details</a></li>
-                    <li><a href="volunteer.html">Volunteer</a></li>
-                  </ul>
-                </li>
+                </li> -->
+                
                 <li><a href="contact.html">Contact Us</a></li>
               </ul>
             </div>
@@ -99,7 +89,7 @@
                 <span></span>
                 <span></span>
               </button>
-              <a href="contact.html" class="btn-theme btn-gradient btn-slide btn-style">Give Support <img class="icon icon-img" src="assets/img/icons/arrow-line-right2.png" alt="Icon"></a>
+              <a href="#" class="btn-theme btn-gradient btn-slide btn-style"data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now<img class="icon icon-img" src="assets/img/icons/arrow-line-right2.png" alt="Icon"></a>
             </div>
           </div>
         </div>
@@ -107,80 +97,237 @@
     </div>
   </header>
   <!--== End Header Wrapper ==-->
-  
+<!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+    <div class="modal-dialog" >
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #eba32e;">
+          <h5 class="modal-title text-light" id="staticBackdropLabel">A Business for you</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="inputname">First Name</label>
+                  <input type="text" class="form-control" id="inputname" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputlastname">Last Name</label>
+                  <input type="text" class="form-control" id="inputlastname" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="phone">Phone Number</label>
+                  <input type="phone" class="form-control" id="phone" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="company_name">Company Name</label>
+                  <input type="text" class="form-control" id="company_name" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="company_link">Company Website Link</label>
+                  <input type="text" class="form-control" id="company_link" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="no_employess">No of Employes</label>
+                  <input type="number" class="form-control" id="no_employess" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="no_Franchisees">No of Active Franchisees</label>
+                  <input type="number" class="form-control" id="no_Franchisees" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="product_details">Product Details</label>
+                  <input type="text" class="form-control" id="product_details" required>
+                </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="product_link">Product Link</label>
+                  <input type="text" class="form-control" id="product_link" required>
+                </div>
+              </div>
+              <div class="form-group col-md-12 pt-3 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary ">Submit</button>
+              </div>
+              
+            </div>
+          </form>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+ <!-- end model  -->
+   
   <main class="main-content">
     <!--== Start Hero Area Wrapper ==-->
-    <section class="home-slider-area slider-default">
+    <section class="home-slider-area slider-default" style="background-color: lightblue;">
       <div class="home-slider-content">
-        <!-- Start Slide Item -->
-        <div class="home-slider-item">
-          <div class="slider-content-area">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6 col-lg-6 col-xl-7">
-                  <div class="content" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="subtitle-content">
-                      <img src="assets/img/icons/1.png" alt="Givest-HasTech">
-                      <h6>Change The World.</h6>
-                    </div>
-                    <div class="tittle-wrp">
-                      <h2>Need Your Big Hand For <span>Change</span> The World.</h2>
-                    </div>
-                    <div class="btn-wrp">
-                      <a href="causes.html" class="btn-theme btn-gradient btn-slide btn-style">All Causes <img class="icon icon-img" src="assets/img/icons/arrow-line-right2.png" alt="Icon"></a>
-                      <a href="#/" class="btn-theme btn-border btn-black btn-style">Donate Now <img class="icon icon-img" src="assets/img/icons/arrow-right-line-dark.png" alt="Icon"></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-xl-5 offset-xl-0">
-                  <div class="layer-style">
-                    <div class="thumb scene">
-                      <span class="scene-layer" data-depth="0.20">                     
-                        <img class="" src="assets/img/slider/1.jpg" alt="Image-Givest">
-                      </span>
-                      <div class="shape-circle scene">
-                        <span class="scene-layer" data-depth="0.10">
-                          <img src="assets/img/shape/circle1.png" alt="Image-Givest">
-                        </span>
-                        <span class="scene-layer" data-depth="0.40">                        
-                          <img class="circle-img" src="assets/img/shape/2.png" alt="Image-Givest">
-                        </span>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- Start Slide Item-1 -->
+              <div class="home-slider-item" style="background-color: lightblue;">
+                <div class="slider-content-area">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6 col-xl-7">
+                        <div class="content" data-aos="fade-right" data-aos-duration="1000">
+                          <!-- <div class="subtitle-content">
+                          <img src="assets/img/icons/1.png" alt="Givest-HasTech">
+                          <h6>Change The World.</h6>
+                        </div> -->
+                          <div class="tittle-wrp">
+                            <h2>Need Your Big Hand For <span>Change</span> The World.</h2>
+                          </div>
+                          <div class="btn-wrp d-flex justify-content-center">
+                            <div>
+                              <a href="causes.html" class="btn-theme btn-gradient btn-slide btn-style">Know More &nbsp;&nbsp;&nbsp;
+                                <img class="icon icon-img" src="assets/img/icons/arrow-line-right2.png" alt="Icon"></a>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-xl-5 offset-xl-0">
+                        <div class="layer-style">
+                          <div class="thumb scene">
+                            <span class="scene-layer" data-depth="0.20">
+                              <img class="" src="assets/img/slider/main-slide-image.png" alt="Image-Givest">
+                            </span>
+                            <div class="shape-circle scene">
+                              <span class="scene-layer" data-depth="0.10">
+                                <img src="assets/img/shape/circle1.png" alt="Image-Givest">
+                              </span>
+                              <span class="scene-layer" data-depth="0.40">
+                                <img class="circle-img" src="assets/img/shape/2.png" alt="Image-Givest"
+                                  style="height: 100px !important; width: 100px;">
+                              </span>
+                            </div>
+                          </div>
+                          <div class="shape-style1 scene">
+                            <span class="scene-layer" data-depth="0.30">
+                              <img src="assets/img/shape/1.png" alt="Image-Givest">
+                            </span>
+                          </div>
+                          <!-- <div class="donate-circle-wrp">
+                          <div class="pie-chart-circle" data-size="255" data-line-width="8" data-line-cap="butt" data-track-color="#ffffff54" data-bar-color="#fff" data-percent="68"></div>
+                          <div class="donate-content">
+                            <div class="raised-amount">$865M</div>
+                            <img class="line-shape-img" src="assets/img/shape/line-s2.png" alt="Image-Givest" >
+                            <h5 class="donate-title">Total Raised</h5>
+                          </div>
+                        </div> -->
+                        </div>
                       </div>
                     </div>
-                    <div class="shape-style1 scene">
-                      <span class="scene-layer" data-depth="0.30">
-                        <img src="assets/img/shape/1.png" alt="Image-Givest">
-                      </span>
+                  </div>
+                  <div class="slider-shape">
+                    <div class="shape-style1">
+                      <img class="shape-img1" src="assets/img/shape/map1.png" alt="Image-Givest">
                     </div>
-                    <div class="donate-circle-wrp">
-                      <div class="pie-chart-circle" data-size="255" data-line-width="8" data-line-cap="butt" data-track-color="#ffffff54" data-bar-color="#fff" data-percent="68"></div>
-                      <div class="donate-content">
-                        <div class="raised-amount">$865M</div>
-                        <img class="line-shape-img" src="assets/img/shape/line-s2.png" alt="Image-Givest">
-                        <h5 class="donate-title">Total Raised</h5>
-                      </div>
+                    <div class="shape-style2">
+                      <img class="shape-img2" src="assets/img/shape/map2.png" alt="Image-Givest">
                     </div>
+                    <!-- <div class="shape-style3">
+                    <img class="shape-img3" src="assets/img/shape/banner-line1.png" alt="Image-Givest">
+                  </div>
+                  <div class="shape-style4">
+                    <img class="shape-img3" src="assets/img/shape/banner-line2.png" alt="Image-Givest">
+                  </div> -->
                   </div>
                 </div>
               </div>
+              <!-- End Slide Item-1 -->
             </div>
-            <div class="slider-shape">
-              <div class="shape-style1">
-                <img class="shape-img1" src="assets/img/shape/map1.png" alt="Image-Givest">
+            <div class="swiper-slide">
+              <!-- Start Slide Item-2 -->
+              <div class="home-slider-item">
+                <div class="slider-content-area">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6 col-xl-7">
+                        <div class="content" data-aos="fade-right" data-aos-duration="1000">
+                          <!-- <div class="subtitle-content">
+                          <img src="assets/img/icons/1.png" alt="Givest-HasTech">
+                          <h6>Change The World.</h6>
+                        </div> -->
+                          <div class="tittle-wrp">
+                            <h2>Need Your Big Hand For <span>Change</span> The World.</h2>
+                          </div>
+                          <div class="btn-wrp d-flex justify-content-center">
+                            <div>
+                              <a href="causes.html" class="btn-theme btn-gradient btn-slide btn-style">Know More &nbsp;&nbsp;&nbsp; <img
+                                class="icon icon-img" src="assets/img/icons/arrow-line-right2.png" alt="Icon"></a>
+                            </div>
+                            
+    
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-xl-5 offset-xl-0">
+                        <div class="layer-style">
+                          <div class="thumb scene">
+                            <span class="scene-layer" data-depth="0.20">
+                              <img class="" src="assets/img/slider/main-slide-image.png" alt="Image-Givest">
+                            </span>
+                            <div class="shape-circle scene">
+                              <span class="scene-layer" data-depth="0.10">
+                                <img src="assets/img/shape/circle1.png" alt="Image-Givest">
+                              </span>
+                              <span class="scene-layer" data-depth="0.40">
+                                <img class="circle-img" src="assets/img/shape/2.png" alt="Image-Givest"
+                                  style="height: 100px !important; width: 100px;">
+                              </span>
+                            </div>
+                          </div>
+                          <div class="shape-style1 scene">
+                            <span class="scene-layer" data-depth="0.30">
+                              <img src="assets/img/shape/1.png" alt="Image-Givest">
+                            </span>
+                          </div>
+                          <!-- <div class="donate-circle-wrp">
+                          <div class="pie-chart-circle" data-size="255" data-line-width="8" data-line-cap="butt" data-track-color="#ffffff54" data-bar-color="#fff" data-percent="68"></div>
+                          <div class="donate-content">
+                            <div class="raised-amount">$865M</div>
+                            <img class="line-shape-img" src="assets/img/shape/line-s2.png" alt="Image-Givest">
+                            <h5 class="donate-title">Total Raised</h5>
+                          </div>
+                        </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-shape">
+                    <div class="shape-style1">
+                      <img class="shape-img1" src="assets/img/shape/map1.png" alt="Image-Givest">
+                    </div>
+                    <!-- <div class="shape-style2">
+                    <img class="shape-img2" src="assets/img/shape/map2.png" alt="Image-Givest">
+                  </div> -->
+                    <!-- <div class="shape-style3">
+                    <img class="shape-img3" src="assets/img/shape/banner-line1.png" alt="Image-Givest">
+                  </div>
+                  <div class="shape-style4">
+                    <img class="shape-img3" src="assets/img/shape/banner-line2.png" alt="Image-Givest">
+                  </div> -->
+                  </div>
+                </div>
               </div>
-              <div class="shape-style2">
-                <img class="shape-img2" src="assets/img/shape/map2.png" alt="Image-Givest">
-              </div>
-              <div class="shape-style3">
-                <img class="shape-img3" src="assets/img/shape/banner-line1.png" alt="Image-Givest">
-              </div>
-              <div class="shape-style4">
-                <img class="shape-img3" src="assets/img/shape/banner-line2.png" alt="Image-Givest">
-              </div>
+              <!-- End Slide Item-2 -->
             </div>
+    
           </div>
+    
         </div>
-        <!-- End Slide Item -->
+    
       </div>
     </section>
     <!--== End Hero Area Wrapper ==-->
@@ -945,7 +1092,7 @@
           <div class="row align-items-center">
             <div class="col-12">
               <div class="widget-copyright text-center">
-                <p>© 2025 <span>Givest</span>. Made with <i class="icon_heart"></i> by <a target="_blank" href="https://www.hasthemes.com">HasThemes</a></p>
+                <p>© 2023 All rights reserved by |<span>A Business for you</span>. Made with <i class="icon_heart"></i> by <a target="_blank" href="https://www.dt7solutions.com">DT7solutions</a></p>
               </div>
             </div>
           </div>
@@ -1027,7 +1174,29 @@
 
 <!--=== Custom Js ===-->
 <script src="assets/js/custom.js"></script>
+<script>
+  var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+</script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween : 30,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 </body>
 
 </html>
