@@ -470,7 +470,7 @@ table p {
   font-weight: 500;
   line-height: 1.375;
   min-width: 200px;
-  padding: 21px 37px;
+  padding: 12px 37px;
   position: relative;
   transition: 0.3s;
   -webkit-transition: 0.3s;
@@ -563,7 +563,7 @@ table p {
   background-color: transparent;
   border: 2px solid #fc6539;
   color: #fc6539;
-  padding: 19px 37px;
+  padding: 12px 37px;
 }
 .btn-theme.btn-border:hover {
   background-color: #fc6539;
@@ -3950,6 +3950,7 @@ table p {
 }
 .about-area .layer-style .thumb img.img-two {
   margin-left: -23px;
+
 }
 @media only screen and (max-width: 1199px) {
   .about-area .layer-style .thumb img.img-two {
@@ -6234,7 +6235,7 @@ table p {
   z-index: 0;
 }
 .donate-area.donate-default-area .donate-form:before {
-  background-color: #08242a;
+  /* background-color: #08242a; */
   border-radius: 50%;
   content: "";
   height: 724px;
@@ -9645,4 +9646,29 @@ table p {
 }
 .client-content{
   text-align: start;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin-top: 150px;
+  pointer-events: none;
+}
+.modal-content {
+  display: flex;
+  justify-content: center !important;
+  width: 650px;
+  margin-left: -115px;
+  border: none;
+  -webkit-box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.38);
+  box-shadow: 0px 0px 21px 12px rgba(0,0,0,0.38);
+  
+}
+.footer-icon{
+  border-radius: 45%;
+}
+.title-row{
+  margin-top: -50px;
+ 
 }
