@@ -9587,9 +9587,9 @@ table p {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .swiper-slide img {
@@ -9672,3 +9672,24 @@ table p {
   margin-top: -50px;
  
 }
+
+
+/* .gall-area {
+  background-color: #001d23;
+  padding: 0 15px 33px;
+  position: relative;
+}
+
+.gall-area .gall-main {
+  background-color: #f7f7f7;
+  margin: 0px auto -175px;
+  max-width: 1555px;
+  padding: 152px 0 80px;
+  position: relative;
+  z-index: 1;
+  transform: translate(0, -240px);
+  -webkit-transform: translate(0, -240px);
+  -moz-transform: translate(0, -240px);
+  -ms-transform: translate(0, -240px);
+  -o-transform: translate(0, -240px);
+} */
