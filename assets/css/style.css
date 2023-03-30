@@ -6542,7 +6542,7 @@ table p {
 }
 .icon-box-style1 .icon-box-item .icon-box-top {
   display: flex;
-  margin-bottom: 33px;
+  /* margin-bottom: 33px; */
   padding-left: 22px;
 }
 @media only screen and (max-width: 1199px) {
