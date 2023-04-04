@@ -26,7 +26,7 @@
 body {
   color: #595959;
   font-size: 0.9375rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
@@ -38,11 +38,16 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #001d23;
-  font-family: "Yeseva One", cursive;
+  font-family: "Poppins";
   font-weight: 400;
   line-height: 1.1;
   margin-bottom: 10px;
   margin-top: 0;
+}
+ 
+.alignment{
+  text-align: justify!important;
+
 }
 
 a {
@@ -3992,7 +3997,7 @@ table p {
 .about-area .about-content .text-style:before {
   background-color: #fc6539;
   content: "";
-  height: 75px;
+  height: 90%;
   left: -29px;
   position: absolute;
   top: 7px;
@@ -6534,6 +6539,13 @@ table p {
 .icon-box-style1 .icon-box-item {
   background-color: #fc6539;
   padding: 52px 47px 44px 58px;
+  
+  
+}
+@media only screen  and (min-width: 1200px)  {
+  .icon-box-style1 .icon-box-item {
+    min-height: 370px!important;
+  }
 }
 @media only screen and (max-width: 1199px) {
   .icon-box-style1 .icon-box-item {
@@ -6632,7 +6644,7 @@ table p {
   background: linear-gradient(to right, #FEA444 0%, #FC6539 100%);
 }
 .icon-box-style1 .icon-box-item.item-two {
-  background-color: #001d23;
+  background-color: #12385f;
 }
 .icon-box-style1 .icon-box-item.item-two .icon-box-top {
   left: -7px;
@@ -9637,9 +9649,12 @@ table p {
 .card-icon i{
   border: 2px solid black !important;
 }
+.card-body{
+  min-height: 330px!important;
+}
 .card-title{
-  font-family: roboto;
-  font-weight: 700;
+  font-family: Poppins;
+  font-weight: 400;
 }
 .client-info{
   text-align: start;
