@@ -3427,7 +3427,7 @@ table p {
   margin-bottom: 30px;
 }
 .home-slider-area.slider-default .slider-content-area .content .tittle-wrp h2 {
-  font-size: 75px;
+  font-size: 60px;
   line-height: 1.0934;
 }
 @media only screen and (max-width: 1399px) {
@@ -9101,9 +9101,9 @@ table p {
 }
 .footer-area .footer-main {
   background-color: #f7f7f7;
-  margin: 0px auto -175px;
+  margin: 100px auto -175px;
   max-width: 1555px;
-  padding: 152px 0 80px;
+  padding: 152px 0 0px;
   position: relative;
   z-index: 1;
   transform: translate(0, -240px);
@@ -9712,3 +9712,18 @@ table p {
   -ms-transform: translate(0, -240px);
   -o-transform: translate(0, -240px);
 } */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
