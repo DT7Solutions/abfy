@@ -9654,7 +9654,7 @@ table p {
   border: 2px solid black !important;
 }
 .card-body{
-  min-height: 330px!important;
+  min-height: 370px!important;
 }
 .card-title{
   font-family: Poppins;
@@ -9726,4 +9726,15 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+.blue{
+  background-color: #12385f!important;
+  color: white!important;
+  font-weight: 800 !important;
+}
+.grey{
+  background-color: #dddddd!important;
+  color: #12385f!important;
+  border: 1px solid #12385f!important;
+  font-weight: 800 !important;;
 }
