@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Regular.ttf");
+}
 /*===================================================================
 [Table Of Content]
 
@@ -26,7 +31,7 @@
 body {
   color: #595959;
   font-size: 0.9375rem;
-  font-family: "Poppins";
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
@@ -3976,7 +3981,6 @@ table p {
 }
 .about-area .about-content .text-style {
   color: #464444;
-  font-family: "Yeseva One", cursive;
   font-size: 22px;
   line-height: 1.364;
   margin-bottom: 26px;
