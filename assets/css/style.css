@@ -3305,7 +3305,7 @@ table p {
 }
 @media only screen and (max-width: 1399px) {
   .home-slider-area.slider-default .home-slider-content .home-slider-item {
-    height: 800px;
+    height: 700px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -3892,7 +3892,7 @@ table p {
   }
 }
 .about-area.about-default-area:before {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   bottom: 0;
   content: "";
   height: calc(100% + 225px);
