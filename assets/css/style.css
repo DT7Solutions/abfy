@@ -4155,6 +4155,7 @@ table p {
   padding: 62px 35px 48px 43px;
   position: relative;
   z-index: 1;
+  
 }
 @media only screen and (max-width: 479.98px) {
   .content-box-item {
