@@ -572,7 +572,7 @@
           <div class="row align-items-center">
             <div class="col-12">
               <div class="widget-copyright text-center">
-                <p>© 2023 All rights reserved by |<span>A Business for you</span>desgined by<i class="icon_heart"></i> by <a target="_blank" href="https://dt7solutions.com/">DT7solutions</a></p>
+                <p>© 2023 All rights reserved by | <span>A Business for you </span>desgined <i class='fa-regular fa-heart' style="color: #f53400"></i> by <a target="_blank" href="https://dt7solutions.com/">DT7solutions</a></p>
               </div>
             </div>
           </div>
@@ -619,7 +619,6 @@
 
 <!--=======================Javascript============================-->
 
-<!--=== Modernizr Min Js ===-->
 <script src="assets/js/modernizr.js"></script>
 <!--=== jQuery Min Js ===-->
 <script src="assets/js/jquery-main.js"></script>
@@ -651,10 +650,34 @@
 <script src="assets/js/wow.min.js"></script>
 <!--=== jQuery EasyPieChart Min Js ===-->
 <script src="assets/js/jquery.easypiechart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
 
 <!--=== Custom Js ===-->
 <script src="assets/js/custom.js"></script>
+<script>
+  var myModal = document.getElementById('myModal')
+var myInput = document.getElementById('myInput')
 
+myModal.addEventListener('shown.bs.modal', function () {
+  myInput.focus()
+})
+</script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween : 30,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
 </body>
 
 </html>
+
