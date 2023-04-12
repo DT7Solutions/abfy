@@ -222,6 +222,22 @@
   }
   
   
+/*=============================================
+	=          services Active               =
+=============================================*/
+$('.services-item').hover(function () {
+	$(this).find('.services-overlay-content').slideToggle(300);
+	return false;
+});
+$('.services-item').hover(function () {
+	$(this).find('.services-content .title').slideToggle(300);
+	return true;
+});
+$('.services-item').hover(function () {
+	$(this).find('.services-icon').slideToggle(300);
+	return true;
+});
+
 /* ==========================================================================
    When document is loading, do
    ========================================================================== */
