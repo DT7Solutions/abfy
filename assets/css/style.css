@@ -3301,7 +3301,7 @@ table p {
   position: relative;
 }
 .home-slider-area.slider-default .home-slider-content .home-slider-item {
-  height: 900px;
+  height: 700px;
 }
 @media only screen and (max-width: 1399px) {
   .home-slider-area.slider-default .home-slider-content .home-slider-item {
