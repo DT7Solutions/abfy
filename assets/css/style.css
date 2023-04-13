@@ -3337,7 +3337,7 @@ table p {
 }
 @media (max-width: 1799px) {
   .home-slider-area.slider-default .slider-content-area {
-    padding-top: 45px;
+    padding-top: 0px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -9759,7 +9759,7 @@ tr:nth-child(even) {
   padding-left: 15px;
  padding-right: 15px;
  overflow: hidden;
- background: #f7f7f7!important;
+
   
 }
 
@@ -9790,7 +9790,7 @@ tr:nth-child(even) {
 }
 
 .container-why .card .face.face1 .content{
-  opacity: 0.2;
+  opacity: 0.9;
   transition: 0.5s;
 }
 
