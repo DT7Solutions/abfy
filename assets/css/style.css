@@ -3936,7 +3936,7 @@ table p {
     margin-top: 30px;
   }
 }
-.about-area .layer-style:before {
+/* .about-area .layer-style:before {
   background-color: #fff;
   border-radius: 50%;
   content: "";
@@ -3946,7 +3946,7 @@ table p {
   top: -331px;
   width: 546px;
   z-index: -1;
-}
+} */
 @media only screen and (max-width: 1199px) {
   .about-area .layer-style:before {
     top: -300px;
