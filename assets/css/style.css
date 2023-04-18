@@ -3457,7 +3457,7 @@ table p {
   z-index: 1;
 }
 .home-slider-area.slider-default .slider-content-area .content .tittle-wrp h2 span:before {
-  background-image: url("../img/shape/banner-title-shape.png");
+  /* background-image: url("../img/shape/banner-title-shape.png"); */
   background-repeat: no-repeat;
   background-position: 13px 9px;
   content: "";
@@ -3670,6 +3670,7 @@ table p {
   top: -86px;
   width: 100%;
   pointer-events: none;
+  display: none;
 }
 @media (max-width: 1799px) {
   .home-slider-area.slider-default .slider-content-area .layer-style .thumb .shape-circle {
@@ -5659,9 +5660,9 @@ table p {
 	Testimonial CSS
 -----------------------------------------------------------------------
 */
-.testimonial-area.testimonial-default-area {
+/* .testimonial-area.testimonial-default-area {
   padding: 150px 0 148px;
-}
+} */
 @media only screen and (max-width: 1199px) {
   .testimonial-area.testimonial-default-area {
     padding: 100px 0 98px;
@@ -9860,4 +9861,21 @@ tr:nth-child(even) {
  }
 
 
+ .testimonial-area.testimonial-default-area {
+  padding-top: 100px;
+  padding-bottom: -500px !important;
+}
 
+.happen-text h5{
+  font-size: 25px;
+}
+
+.happen-text p{
+  font-size: 18px;
+  text-align: justify;
+}
+
+.grow p{
+  color:#12385f ;
+  font-size: 19px !important;
+}
