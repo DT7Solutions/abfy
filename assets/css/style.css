@@ -251,6 +251,7 @@ table p {
   .section-title .title {
     font-size: 26px;
   }
+  
 }
 .section-title .title span {
   background: #FEA444;
@@ -282,6 +283,9 @@ table p {
 @media only screen and (max-width: 1399px) {
   .section-title .title.title-style .img-shape {
     width: 185px;
+  }
+  .slider-text{
+    margin-top: -80px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -2802,13 +2806,16 @@ table p {
 @media only screen and (max-width: 767px) {
   .header-area.header-default .header-align .header-action-area button.btn-theme, .header-area.header-default .header-align .header-action-area a.btn-theme {
     font-size: 14px;
-    min-width: 130px;
+    min-width: 10px;
     padding: 11px 16px;
   }
 }
 @media (max-width: 384px) {
   .header-area.header-default .header-align .header-action-area button.btn-theme, .header-area.header-default .header-align .header-action-area a.btn-theme {
-    display: none;
+    /* display: none; */
+    font-size: 14px;
+    min-width: 13px;
+    padding: 11px 16px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -4258,7 +4265,7 @@ table p {
   margin-bottom: 94px;
 }
 .team-area.team-fluid-area {
-  padding: 150px 0 118px;
+  padding: 50px 0 30px;
 }
 @media only screen and (max-width: 1199px) {
   .team-area.team-fluid-area {
@@ -8838,7 +8845,7 @@ table p {
 }
 
 .contact-page-wrapper .contact-area {
-  padding: 150px 0 390px;
+  /* padding: 150px 0 390px; */
 }
 @media only screen and (max-width: 1199px) {
   .contact-page-wrapper .contact-area {
@@ -9617,7 +9624,7 @@ table p {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  /* background: #fff; */
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -9879,3 +9886,32 @@ tr:nth-child(even) {
   color:#12385f ;
   font-size: 19.5px !important;
 }
+
+.swiper-slide .thumb {
+  border-radius: 50% !important;
+  height: 350px !important;
+  width: 350px !important;
+
+}
+
+.sub-text{
+  color: #12385f;
+  font-weight:bolder;
+  font-size: 28px;
+}
+
+/* .team-area.team-fluid-area {
+  padding: 50px 0 40px;
+} */
+
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+  .slider-text{
+    margin-top: -60px !important;
+  }
+}
+  
+/* @media screen and (min-width: 320px) and (max-width: 520px){
+    .swiper-container {
+      overflow:hidden !important;
+    }
+} */

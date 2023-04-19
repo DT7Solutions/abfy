@@ -63,31 +63,32 @@
   var teamSlider = new Swiper('.team-slider-container', {
     slidesPerView: 3,
     loop: true,
-    spaceBetween : 30,
+    spaceBetween : 36,
     autoplay: {
       delay: 2500,
       disableOnInteraction: false,
     },
     breakpoints: {
       1200:{
-          slidesPerView : 3
+          slidesPerView : 1
       },
 
       992:{
-          slidesPerView : 3
+          slidesPerView : 1
       },
 
       768:{
-          slidesPerView : 2
+          slidesPerView : 1
 
       },
 
       576:{
-          slidesPerView : 2
+          slidesPerView : 1
       },
 
       0:{
           slidesPerView : 1
+        
       }
     }
   });
