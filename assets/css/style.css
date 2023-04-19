@@ -3894,7 +3894,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .about-area.about-default-area {
-  padding: 20px 0 15px;
+  padding: 80px 0 100px;
   position: relative;
 }
 @media only screen and (max-width: 991px) {
@@ -4493,7 +4493,7 @@ table p {
 -----------------------------------------------------------------------
 */
 .causes-area.causes-default-area {
-  padding: 148px 0 152px;
+  padding: 100px 0 110px;
 }
 @media only screen and (max-width: 1199px) {
   .causes-area.causes-default-area {
@@ -4511,7 +4511,7 @@ table p {
   }
 }
 .causes-area.causes-default-area .section-title {
-  margin-bottom: 123px;
+  /* margin-bottom: 123px; */
 }
 @media only screen and (max-width: 1199px) {
   .causes-area.causes-default-area .section-title {
@@ -5833,7 +5833,7 @@ table p {
 .testimonial-single .client-content p {
   color: #c2c2c2;
   font-size: 25px;
-  font-family: "Yeseva One", cursive;
+  /* font-family: "Yeseva One", cursive; */
   line-height: 1.6;
 }
 @media only screen and (max-width: 479.98px) {
@@ -9863,7 +9863,7 @@ tr:nth-child(even) {
 
  .testimonial-area.testimonial-default-area {
   padding-top: 100px;
-  padding-bottom: -500px !important;
+  padding-bottom: 60px !important;
 }
 
 .happen-text h5{
@@ -9877,5 +9877,5 @@ tr:nth-child(even) {
 
 .grow p{
   color:#12385f ;
-  font-size: 19px !important;
+  font-size: 19.5px !important;
 }
