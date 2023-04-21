@@ -83,11 +83,13 @@
       },
 
       576:{
-          slidesPerView : 1
+          slidesPerView : 1,
+          
       },
 
       0:{
-          slidesPerView : 1
+          slidesPerView : 1,
+          spaceBetween : 300
         
       }
     }
