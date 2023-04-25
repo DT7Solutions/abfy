@@ -322,7 +322,7 @@ function sendingmail() {
     Host: "smtp.elasticemail.com",
     Username: "abfy.website@gmail.com",
     Password: "D8CEB7F5A3EE48981DBD76FA9EA23CD3DDC9",
-    To: 'honeypriya6741@gmail.com',
+    To: 'biz@abfyglobal.com',
     From: "abfy.website@gmail.com",
     Subject: subject ,
     Body: "Name:" + name +  "<br/> last name:" +  lastname +  "<br/> Email:" +  x +  "<br/> Phonenum:" +  contactadd +  "<br/> Name of Organization:" +  orgname +  "<br/> Organization Address:" +  company_addr + "<br/> Business category:" +  values +  "<br/> Specific Product:" +  specific_product1 +  "<br/> Vshoot:" +  selectedradios +  "<br/> InterviewFounder:" +  selectedintfounder +  "<br/> Mode of expansion:" +  exp_values +  "<br/> Comments:" +  your_comment
@@ -361,7 +361,7 @@ function contmail(){
     Host: "smtp.elasticemail.com",
     Username: "abfy.website@gmail.com",
     Password: "D8CEB7F5A3EE48981DBD76FA9EA23CD3DDC9",
-    To: 'honeypriya6741@gmail.com',
+    To: 'biz@abfyglobal.com',
     From: "abfy.website@gmail.com",
     Subject: csub ,
     Body: "Name:" + fname +  "<br/> Email:" +  y + "<br/> Phonenum:" +  cnum + "<br/> Message:" +  cmsg
