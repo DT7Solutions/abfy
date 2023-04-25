@@ -44,6 +44,7 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -113,251 +114,260 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
+          <form name="myform">
             <div class="form-row">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="inputname">First Name</label>
-                  <input type="text" class="form-control" id="inputname" required>
+                  <input type="text" class="form-control" id="inputname" name="inputname" required>
+                  <span id="demo" class="text-danger"></span>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="inputlastname">Last Name</label>
-                  <input type="text" class="form-control" id="inputlastname" required>
+                  <input type="text" class="form-control" id="inputlastname" name="inputlastname" required>
+                  <span id="demo1" class="text-danger"></span>
                 </div>
                 <div class="form-group col-md-12 pt-3">
                   <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" required>
+                  <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="form-group col-md-12 pt-3">
                   <label for="contact_address">Contact address</label>
-                  <input type="Contact address" class="form-control" id="phone" required>
+                  <input type="Contact address" class="form-control" id="phone" name="phone" required>
                 </div>
                 
                 <div class="form-group col-md-12 pt-3">
                   <label for="name_organsation">Name of the  Organsation</label>
-                  <input type="text" class="form-control" id="company_name" required>
+                  <input type="text" class="form-control" id="company_name" name="company_name" required>
                 </div>
                 <div class="form-group col-md-12 pt-3">
                   <label for="address_organsation">Address of Organsation</label>
-                  <input type="text" class="form-control" id="company_name" required>
+                  <input type="text" class="form-control" id="orgadd" name="orgadd" required>
                 </div>
-                <div class="form-group col-md-12 pt-3">
-                  <label for="business_category">Business category</label>
+                <div class="form-group busineclass col-md-12 pt-3" id="bcategory">
+                  <label for="business_category" >Business category</label>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox1" value="option1" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox1" value="Advertising & Marketing" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox1">Advertising & Marketing</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="Agriculture" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Agriculture</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox3" value="option3" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox3" value="Animals" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox3">Animals</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox4" value="option4" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox4" value="Architecture & Engineering" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox4">Architecture & Engineering</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox5" value="option5" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox5" value="Art & Entertainment" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox5">Art & Entertainment</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox6" value="option6" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox6" value="Automobiles / Commute" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox6">Automobiles / Commute</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox7" value="option7" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox7" value="Computer & Programming" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox7">Computer & Programming</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox8" value="option8" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox8" value="Construction / Materials" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox8">Construction / Materials</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox9" value="option9" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox9" value="Consulting" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox9">Consulting</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox10" value="Employment Activities" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Employment Activities</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox11" value="Event & Business Service" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Event & Business Service</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox12" value="Finance & Insurance" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Finance & Insurance</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox13" value="Food & Beverage" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Food & Beverage</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox14" value="Health & Wellness" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Health & Wellness</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox15" value="Infrastructure & Development" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Infrastructure & Development</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox16" value="Interiors" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Interiors</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox17" value="Legal & Accounting" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Legal & Accounting</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox18" value="Organizations & Others" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Organizations & Others</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox19" value="Personal Services" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Personal Services</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox20" value="Real Estate Services" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Real Estate Services</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox21" value="Repair" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Repair</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox22" value="Retail" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Retail</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox23" value="Security & Investigation" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Security & Investigation</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox24" value="Sports & Leisure" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Sports & Leisure</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox25" value="Technology & IT" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Technology & IT</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox26" value="Telecommunications" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Telecommunications</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox27" value="Training & Coaching" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Training & Coaching</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox28" value="Transport & Shipping" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Transport & Shipping</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox29" value="Travel & Holiday" aria-label="...">
                     <label class="form-check-label" for="inlineCheckbox2">Travel & Holiday</label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox2" value="option2" aria-label="...">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox30" value="Others" aria-label="..." onchange="working_others()">
                     <label class="form-check-label" for="inlineCheckbox2">Others</label>
                   </div>
-                  
-                  
-                
-                  
+                </div>
+                <div class="form-group col-md-12 pt-3" id="select-ev-session">
+                  <label for="specific_product">Your Idea</label>
+                  <input type="text" class="form-control" id="specific_product" name="specific_product" required>
                 </div>
                 <div class="form-group col-md-12 pt-3">
                   <label for="specific_product">The specific product/service/segment that needs to be covered through this program ?</label>
-                  <input type="text" class="form-control" id="specific_product" required>
+                  <input type="text" class="form-control" id="specific_product1" name="specific_product1" required>
                 </div>
-                <div class="form-group col-md-12 pt-3">
-                  <label for="no_Franchisees">Do we need a video shoot of the business location ?
+                <div class="form-group col-md-12 pt-3" id="vshoot" name="vshoot">
+                  <label for="no_Franchisees"  >Do we need a video shoot of the business location ?
                     </label>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Yes" >
                       <label class="form-check-label" for="exampleRadios1">
                        Yes
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" checked>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="No" >
                       <label class="form-check-label" for="exampleRadios2">
                        No
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="Maybe" >
                       <label class="form-check-label" for="exampleRadios3">
                        Maybe
                       </label>
                     </div>
                 </div>
-                <div class="form-group col-md-12 pt-3">
-                  <label for="no_Franchisees">Is the interviewee founder / CEO etc... willing to travel to Hyderabad for an additional personal interview ?
+                <div class="form-group col-md-12 pt-3" id="ifounder">
+                  <label for="no_Franchisees" >Is the interviewee founder / CEO etc... willing to travel to Hyderabad for an additional personal interview ?
                     </label>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios1" value="option1" checked>
+                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios1" value="Yes" >
                       <label class="form-check-label" for="exampleRadios1">
                        Yes
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios2" value="option2" checked>
+                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios2" value="No" >
                       <label class="form-check-label" for="exampleRadios2">
                        No
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios3" value="option3" checked>
+                      <input class="form-check-input" type="radio" name="xampleRadios" id="xampleRadios3" value="Maybe" >
                       <label class="form-check-label" for="exampleRadios3">
                        Maybe
                       </label>
                     </div>
                 </div>
-                <div class="form-group col-md-12 pt-3">
+                <div class="form-group col-md-12 pt-3" id="expanid">
                   <label for="no_Franchisees">What is the mode of expansion ?
                     </label>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <input class="form-check-input" type="checkbox" value="Franchise" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
                         Franchise
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck">
+                      <input class="form-check-input" type="checkbox" value="Dealership / Distribution" id="defaultCheck">
                       <label class="form-check-label" for="defaultCheck1">
                         Dealership / Distribution
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <input class="form-check-input" type="checkbox" value="Channel Partner" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
                         Channel Partner
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <input class="form-check-input" type="checkbox" value="Import / Export" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
                         Import / Export
                       </label>
                     </div>
                     <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <input class="form-check-input" type="checkbox" value="Collaboration" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
                         Collaboration
                       </label>
                     </div>
                 </div>
+                <div class="form-group col-md-12 pt-3">
+                  <label for="comments">Subject</label>
+                  <input type="text" class="form-control" id="isubj" name="isubj" >
+                </div>
                 <div class="form-group col-md-12 pt-3 mb-3">
                   <label for="comments">Please add your comments or notes if any</label>
-                  <input type="text" class="form-control" id="comments" >
+                  <input type="text" class="form-control" id="comments" name="comments" >
+                </div>
+                <div class="form-group col col-md-12 mt-3 mb-3">
+                  <div class="g-recaptcha" data-sitekey="6LeOErclAAAAAKIZuNjl8iV73u-YLiRYzt4oiZkB"></div>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="form-group mb-0">
-                  <button class="btn-theme btn-gradient btn-slide no-border" type="submit">Submit Now</button>
+                  <button class="btn-theme btn-gradient btn-slide no-border" type="submit" onclick="sendingmail()">Submit Now</button>
                 </div>
               </div>
               
@@ -1527,6 +1537,8 @@ a call-to-action for viewers
 <script src="assets/js/jquery.easypiechart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
 
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+
 <!--=== Custom Js ===-->
 <script src="assets/js/custom.js"></script>
 <script>
@@ -1552,6 +1564,8 @@ myModal.addEventListener('shown.bs.modal', function () {
     },
   });
 </script> -->
+
+
 
 </body>
 

@@ -10550,3 +10550,8 @@ tr:nth-child(even) {
   height: 610px;
 }
 }
+
+
+#select-ev-session{
+  display: none;
+}
