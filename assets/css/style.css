@@ -10540,7 +10540,7 @@ tr:nth-child(even) {
   .modal.fade .modal-dialog {
     transition: transform .3s ease-out;
     transform: translate(0,-50px);
-    margin-right: 500px;
+    /* margin-right: 500px; */
 }
   .modal-content {
   height: 450px;
