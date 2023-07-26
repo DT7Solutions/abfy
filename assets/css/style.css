@@ -10555,3 +10555,6 @@ tr:nth-child(even) {
 #select-ev-session{
   display: none;
 }
+.svg-inline--fa {
+  vertical-align: middle!important;
+}
