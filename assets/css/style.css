@@ -9677,11 +9677,12 @@ table p {
   border: 2px solid black !important;
 }
 .card-body{
-  min-height: 370px!important;
+  min-height: 370px !important;
 }
 .card-title{
   font-family: Poppins;
   font-weight: 400;
+  
 }
 .client-info{
   text-align: start;
@@ -10557,4 +10558,124 @@ tr:nth-child(even) {
 }
 .svg-inline--fa {
   vertical-align: middle!important;
+}
+
+
+
+/*=========================================== business section=========================================== */
+
+  
+.card-body .demo{
+  font-size: 10px;
+  float:right;
+  
+  }
+  .business-section .card{
+      height: 450px;
+      background: #fff;
+      box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+      -webkit-transition: all 0.2s ease-in;
+      -moz-transition: all 0.2s ease-in;
+      -ms-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
+      margin-top: 50px;    
+  }
+  .youtube-section{
+    display: flex;
+  }
+
+  .youtube-iframe iframe{
+    border-radius: 6px;
+  }
+  
+  .youtube-conent p .youtube-title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size:13px;
+    color: #1a417b;
+
+  }
+  
+  .card-body .card-title{
+    text-align: center;
+    color: #1a417b;
+    
+  }
+  
+  .business-section .card .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 13.7px;
+    color: #1a417b;
+   
+  }
+  
+/*   
+  .business-section .card img{
+    background-color: #FEA043;
+    border-radius: 50px;
+    
+  }
+   */
+
+  .business-section .card a{
+    outline: none;
+    border: none;
+    background: rgb(254,160,67);
+    background: linear-gradient(90deg, rgba(254,160,67,1) 33%, rgba(252,121,60,0.9757196005288656) 65%);
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  
+  }
+  
+  /*==================================== Happay Home Section ========================*/
+  .happyhome-main .happyhome-top-sec{
+    text-align: center;
+  }
+  .happ-sec-img img{
+    border-radius: 4px;
+  }
+  .list-group-item .headline{
+    font-weight: 700;
+    background-color: #12385f;
+  }
+  .listgroup .card{
+    background: #fff;
+    border: 1px solid #e1e1e1;
+  }
+  .left-sec-content p{
+    text-align: justify;
+  }
+  .overview-text {
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+
+  /*=================================== pagination ============================*/
+
+.page_container .pagination{
+  background-color: #d7d7d7;
+  width: fit-content;
+  border-radius:5px;
+}
+
+.page_container .pagination a{
+  color: #1a417b;
+  float:left;
+  padding: 14px 18px;
+  font-weight:600;
+}
+
+.active-page {
+  background-color: #e19f35;
+  color: #1a417b;
+  font-weight:900;
 }
