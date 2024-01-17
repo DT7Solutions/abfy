@@ -10657,7 +10657,18 @@ tr:nth-child(even) {
     font-weight: 600;
     font-size: 25px;
   }
-
+  .happyhome-top-sec .card-body .youtube-section {
+    display: block !important;
+  }
+  .happyhome-top-sec .card-body .youtube-section .youtube-iframe{
+    width: 350px;
+    height: 200px;
+    margin: 0 !important;
+  }
+  .happyhome-top-sec .card-body .youtube-section .youtube-iframe iframe{
+    width: 350px;
+    height: 200px;
+  }
 
   /*=================================== pagination ============================*/
 
